@@ -8,23 +8,23 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 const Navbar = () => {
   return (
     <>
-        <div className='flex items-center justify-between'>
-          <div>
-            <img src={logo} alt="food" className=''/>
-            <span>QuickBite</span>
+        <div className='flex items-center justify-center md:justify-between  md:px-16 py-5 md:py-3 shadow-lg shadow-gray-500/25'>
+          <div className='flex items-center justify-center'>
+            <img src={logo} alt="food" className='w-8 md:w-12 '/>
+            <span className='text-xl md:text-2xl mt-2 md:mt-4 ml-2 text-orange-500'>QuickBite</span>
           </div>
-          <div>
-             <div>
+          <div className='flex items-center justify-around'>
+             <div className='px-4'>
                  <PersonIcon />
-                 <span>lamia</span>
-                 <KeyboardArrowDownIcon />
+                 <span className='px-0 md:px-1'>lamia</span>
+                 <KeyboardArrowDownIcon className='text-orange-500' />
              </div>
-             <div>
+             <div className='px-4'>
                  <LanguageIcon />
-                 <span>lamia</span>
-                 <KeyboardArrowDownIcon />
+                 <span className='px-0 md:px-1'>EN</span>
+                 <KeyboardArrowDownIcon className='text-orange-500' />
              </div>
-             <div>
+             <div className='px-0 md:px-1 text-orange-500'>
                  <ShoppingCartIcon />
              </div>
           </div>
