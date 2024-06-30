@@ -7,7 +7,7 @@ const Hero = () => {
     <>
         <div className='grid grid-cols-1 lg:grid-cols-2 h-screen items-center bg-orange-50'>
             <div className='mx-7 mt-28 md:ml-16 md:mt-12'>
-              <h1 className='text-4xl md:text-5xl font-extrabold'>It&apos;s the food and groceries you love, delivered</h1>
+              <h1 className='text-4xl md:text-5xl font-extrabold'>It&apos;s the food and groceries you love, delivered.</h1>
                 <div className='relative my-6 w-auto md:w-full  py-2 px-4 md:px-0 md:py-3 shadow shadow-gray-700/25 rounded-xl flex items-center justify-center gap-2 md:gap-4'>
                     <input type="text" placeholder='Your street and street number'
                      className='border border-gray-300 outline-none w-full md:w-96 px-2 py-3 md:px-4 md:py-3 rounded-md 
