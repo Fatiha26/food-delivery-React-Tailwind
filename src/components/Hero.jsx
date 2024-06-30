@@ -16,7 +16,8 @@ const Hero = () => {
                         <MyLocationIcon className='text-orange-500 mr-1'/>
                         <span className='text-orange-500 hidden md:inline-block'>Locate me</span>
                     </div>
-                    <button className='w-1/5 bg-orange-500 text-white px-1 md:px-4 py-1 md:py-2 text-xs md:text-lg rounded-md'>Find food</button>
+                    <button className='w-1/5 bg-orange-500 text-white px-1 md:px-4 py-1 md:py-2 text-xs md:text-lg rounded-md
+                    hover:bg-orange-700 transition delay-150'>Find food</button>
                 </div>
             </div>
 
