@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className='flex items-center justify-around'>
              <div className='px-4'>
                  <PersonIcon />
-                 <span className='px-0 md:px-1'>lamia</span>
+                 <span className='px-0 md:px-1 text-md text-gray-500'>Lamia</span>
                  <KeyboardArrowDownIcon className='text-orange-500' />
              </div>
              <div className='px-4'>
