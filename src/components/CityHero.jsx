@@ -8,11 +8,11 @@ const Cityhero = () => {
 
   return (
    <>
-    <div className='flex justify-between gap-60 h-4/3 pt-12 items-center bg-orange-50 px-16'>
+    <div className='flex justify-between md:gap-60 gap-3 h-80 md:h-96 pt-12 md:pt-40  items-center bg-orange-50 px-16'>
             <div className='w-full'>
-              <h1 className='text-4xl md:text-4xl font-extrabold w-full'>Food Delivery from Barishal&apos;s Best Restaurants</h1>
+              <h1 className='text-lg md:text-4xl font-extrabold w-full md:-mt-12'>Food Delivery from Barishal&apos;s Best Restaurants</h1>
             </div>
-            <div className='w-1/2'>
+            <div className='md:w-1/2 w-full'>
               <img src={bowl} alt="burger"  className='w-full'/>
             </div>
     </div>
