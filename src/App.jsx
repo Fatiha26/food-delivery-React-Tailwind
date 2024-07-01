@@ -6,6 +6,8 @@ import Cities from './components/Cities'
 import Download from './components/Download'
 import Office from './components/Office'
 import Text from './components/Text'
+import Country from './components/Country'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <>
@@ -16,6 +18,8 @@ const App = () => {
     <Download />
     <Office />
     <Text />
+    <Country />
+    <Footer />
     </>
   )
 }
