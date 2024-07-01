@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import PrepareList from './components/PrepareList'
 import Cities from './components/Cities'
 import Download from './components/Download'
+import Office from './components/Office'
 const App = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const App = () => {
     <PrepareList />
     <Cities />
     <Download />
+    <Office />
     </>
   )
 }
