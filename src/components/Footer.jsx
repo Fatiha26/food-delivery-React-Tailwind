@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
    <footer>
-   <div className='grid md:grid-cols-4 grid-cols-2 md:gap-12 gap-8 px-12 md:px-0 py-8 md:mx-16 border-b border-orange-300 md:py-6'>
+   <div className='grid md:grid-cols-4 grid-cols-2 md:gap-12 gap-8 px-12 md:px-0 md:py-20 py-8 md:mx-16 border-b border-orange-300 md:py-6'>
                
                <div className='flex items-center justify-center'>
                   <img src={logo} alt="logo" className='w-8 md:w-12 '/>
