@@ -1,5 +1,5 @@
 <h1>QuickBite</h1>
-<p>A food delivering website</p>
+<p>A food ordering website</p>
 
 live link : https://food-delivery-react-tailwind.vercel.app/
 
