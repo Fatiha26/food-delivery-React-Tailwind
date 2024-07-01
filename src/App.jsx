@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import PrepareList from './components/PrepareList'
 import Cities from './components/Cities'
-
+import Download from './components/Download'
 const App = () => {
   return (
     <>
@@ -11,6 +11,7 @@ const App = () => {
     <Hero />
     <PrepareList />
     <Cities />
+    <Download />
     </>
   )
 }
