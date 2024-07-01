@@ -8,7 +8,7 @@ import raj from "../assets/images/raj.jpg"
 
 
 
-export const Data = [
+export const data = [
     {
         image:dhaka,
         city:"Dhaka",
