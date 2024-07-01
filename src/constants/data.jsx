@@ -6,6 +6,15 @@ import syl from "../assets/images/syl.jpeg"
 import ctg from "../assets/images/ctg.jpg"
 import raj from "../assets/images/raj.jpg"
 
+import pasta from "../assets/images/pasta.jpg";
+import roll from "../assets/images/roll.jpg";
+import taco from "../assets/images/taco.jpg";
+import biriyani from "../assets/images/biriyani.jpg";
+import coffee from "../assets/images/coffee.jpg";
+import chicken from "../assets/images/chicken.jpg";
+
+
+
 
 
 export const data = [
@@ -117,4 +126,37 @@ export const links3 = [
         text:"Area Covered",
     },
 
+]
+
+export const food = [
+    {
+        image:pasta,
+        title:"Burger Burg",
+        rating:"4.3",
+    },
+    {
+        image:coffee,
+        title:"Mermaid",
+        rating:"4.0",
+    },
+    {
+        image:biriyani,
+        title:"Kacchi Dine",
+        rating:"4.5",
+    },
+    {
+        image:taco,
+        title:"Food King",
+        rating:"3.9",
+    },
+    {
+        image:roll,
+        title:"Euro",
+        rating:"4.5",
+    },
+    {
+        image:chicken,
+        title:"Foodie",
+        rating:"4.1",
+    },
 ]
