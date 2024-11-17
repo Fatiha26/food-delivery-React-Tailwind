@@ -1,8 +1,11 @@
-# React + Vite
+<h1>QuickBite</h1>
+<p>A food ordering website</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+live link : https://food-delivery-react-tailwind.vercel.app/
 
-Currently, two official plugins are available:
+<h1>Homepage</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![p-4](https://github.com/Fatiha26/food-delivery-React-Tailwind/assets/54715017/c2ed7821-5ea7-4310-8c9b-e29ed677b89c)
+
+
+
